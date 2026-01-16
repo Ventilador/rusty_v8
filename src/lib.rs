@@ -32,7 +32,7 @@ extern crate temporal_capi;
 mod array_buffer;
 mod array_buffer_view;
 mod bigint;
-mod binding;
+pub mod binding;
 mod context;
 pub use context::ContextOptions;
 pub mod cppgc;
