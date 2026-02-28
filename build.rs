@@ -113,10 +113,10 @@ fn main() {
     }
 
     build_v8(is_asan);
-    build_binding();
-
+    
     return;
   }
+  build_binding();
 
   print_prebuilt_src_binding_path();
 
